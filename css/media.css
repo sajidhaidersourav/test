@@ -1,0 +1,433 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* hader */
+  header{
+    padding: 5px 0px;
+  }
+  .logo img{
+    width: 130px;
+  }
+  .menu ul{
+    padding-top: 15px;
+  }
+  .menu ul li a {
+    font-size: 16px;
+    font-weight: 700;
+}
+/* banner */
+.banner {
+    padding: 40px 0px 0px;
+}
+.b_text {
+    padding: 25px 0px 50px;
+    text-align: center;
+}
+.title {
+    font-size: 30px;
+}
+.text {
+    padding: 20px 0px;
+    text-align: center;
+}
+.btn_box {
+    padding-top: 0px;
+}
+.get {
+    padding-top: 20px;
+}
+.cm_link {
+    font-weight: 800;
+}
+.top{
+    padding-top: 35px;
+}
+.b_img img{
+    border: 10px solid var(--button);
+}
+/* slider */
+.review {
+    padding: 50px 0px;
+}
+.s_title {
+    font-size: 25px;
+    text-align: center;
+}
+/* security */
+.security {
+    padding: 50px 0px;
+}
+.sq_text {
+    padding: 0px;
+}
+.btn_box2 {
+    padding: 20px 0px 0px;
+    text-align: center;
+}
+.s_title2{
+    font-size: 22px;
+}
+.sq_img{
+    padding-bottom: 30px;
+}
+.sq_img img{
+    border: 10px solid var(--bg);
+}
+/* feature */
+.feature {
+    padding: 50px 0px;
+}
+.feature_cm_title {
+    padding: 0px 0px 40px;
+}
+.feature_box {
+    padding: 20px 20px 50px;
+}
+/* help */
+.help_center{
+    padding: 50px 0px;
+}
+/* find */
+.find{
+    padding: 50px 0px;
+}
+/* latest */
+.latest{
+    padding: 50px 0px;
+}
+.latest_heading {
+    padding: 0px 0px 40px;
+}
+.latest_item{
+    margin-bottom: 30px;
+}
+.latest_btn_box {
+    padding: 0px;
+}
+/* footer top */
+.footer_top{
+    padding: 50px 0px;
+}
+.signup_box {
+    padding: 0px 20px 30px;
+}
+.footer_item h2 {
+    font-size: 16px;
+}
+.footer_icon {
+    padding: 15px 0px;
+}
+.footer_icon a i {
+    padding-right: 10px;
+    font-size: 25px;
+}
+.fotter_p1 {
+    padding: 15px 0px 15px;
+}
+
+.sig_box {
+    padding: 20px;
+    border-radius: 30px;
+}
+.sig_box p {
+    padding: 20px 0px;
+}
+.c_input {
+    padding: 5px 20px 5px 20px;
+}
+form a {
+    padding: 5px 20px !important;
+}
+.footer_item{
+    text-align: center;
+}
+.list_itm{
+    text-align: center;
+}
+.list_itm h2 {
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.list_itm ul {
+    padding: 20px 0px 0px;
+    text-align: center;
+}
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* headre */
+  .menu ul{
+    padding-top: 15px;
+  }
+  .menu ul li a {
+    font-size: 18px;
+    font-weight: 700;
+}
+/* banner */
+.banner {
+    padding: 50px 0px 0px;
+}
+.b_text {
+    padding: 30px 0px 50px;
+}
+.title {
+    font-size: 47px;
+    text-align: center;
+}
+.text {
+    padding: 25px 0px;
+    text-align: center;
+}
+.btn_box {
+    padding-top: 20px;
+}
+.b_img img{
+    border: 15px solid var(--button);
+}
+/* slider */
+.review {
+    padding: 60px 0px;
+}
+.s_title {
+    font-size: 30px;
+    text-align: center;
+}
+/* security */
+.security {
+    padding: 60px 0px;
+}
+.sq_text {
+    padding: 0px;
+}
+.btn_box2{
+    text-align: center;
+}
+.sq_img{
+    padding-bottom: 30px;
+}
+.sq_img img{
+    border: 15px solid var(--bg);
+}
+/* feature */
+.feature {
+    padding: 60px 0px;
+}
+.feature_cm_title {
+    padding: 0px 0px 50px;
+}
+.top2{
+    padding-top: 30px;
+}
+/* help */
+.help_center{
+    padding: 60px 0px;
+}
+.left_box {
+    padding: 33px;
+}
+.right_box {
+    padding: 40px;
+}
+/* find */
+.find{
+    padding: 60px 0px;
+}
+/* latest */
+.latest{
+    padding: 60px 0px;
+}
+.latest_heading {
+    padding: 0px 0px 40px;
+}
+.latest_item{
+    margin-bottom: 40px;
+}
+.latest_btn_box {
+    padding: 0px;
+}
+/* footer top */
+.footer_top{
+    padding: 60px 0px;
+}
+.signup_box{
+    padding: 0px 20px 50px;
+}
+.c_input {
+    padding: 10px 15px 10px 20px;
+    width: 70%;
+}
+.list_itm h2 {
+    padding-bottom: 25px;
+    font-size: 30px;
+}
+.list_itm ul {
+    padding: 30px 0px 0px;
+}
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* headre */
+  .menu ul{
+    padding-top: 15px;
+  }
+  /* banner */
+  .banner {
+    padding: 60px 0px 0px;
+}
+  .b_text {
+    padding: 40px 0px 50px;
+}
+.title {
+    font-size: 47px;
+    text-align: center;
+}
+.text {
+    padding: 30px 0px;
+    text-align: center;
+}
+.btn_box {
+    padding-top: 20px;
+}
+.b_img img{
+    border: 15px solid var(--button);
+}
+/* slider */
+.review {
+    padding: 80px 0px;
+}
+/* security */
+.security {
+    padding: 80px 0px;
+}
+.sq_text {
+    padding: 0px;
+}
+.btn_box2{
+    text-align: center;
+}
+.s_title {
+    text-align: center;
+}
+.sq_img{
+    padding-bottom: 30px;
+}
+.sq_img img{
+    border: 15px solid var(--bg);
+}
+/* feature */
+.feature {
+    padding: 80px 0px;
+}
+.feature_cm_title {
+    padding: 0px 0px 70px;
+}
+.feature_item {
+    padding: 30px 10px;
+}
+/* help */
+.help_center{
+    padding: 80px 0px;
+}
+.left_box {
+    padding: 35px;
+}
+/* find */
+.find{
+    padding: 80px 0px;
+}
+/* latest */
+.latest{
+    padding: 80px 0px;
+}
+.latest_heading {
+    padding: 0px 0px 50px;
+}
+.latest_item{
+    margin-bottom: 50px;
+}
+.latest_btn_box {
+    padding: 0px;
+}
+/* footer top */
+.footer_top{
+    padding: 80px 0px;
+}
+.signup_box{
+    padding: 0px 20px 60px;
+}
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  /* header */
+  .menu ul li {
+    padding-right: 30px;
+}
+ /* banner */
+ .b_text {
+    padding: 60px 0px 0px;
+}
+.title {
+    font-size: 47px;
+}
+.text {
+    padding: 40px 0px;
+}
+  .btn_box {
+    padding-top: 0px;
+}
+/* security */
+.sq_text{
+    padding: 20px 0px 0px;
+}
+/* feature */
+.feature_box {
+    padding: 30px 30px 50px;
+}
+.feature_item {
+    padding: 30px 10px;
+}
+.f_btn_box{
+    padding: 30px 0px 0px;
+}
+/* latest */
+.latest_pb3{
+    padding-bottom: 50px !important;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* banner */
+  .b_text {
+    padding: 40px 0px 0px;
+}
+.text {
+    padding: 40px 0px;
+}
+  .btn_box {
+    padding-top: 0px;
+}
+/* security */
+.sq_text{
+    padding: 80px 0px 0px;
+}
+/* feature */
+.f_btn_box{
+    padding: 30px 0px 0px;
+}
+/* latest */
+.latest_pb {
+    padding-bottom: 25px !important;
+}
+.latest_pb3{
+    padding-bottom: 25px !important;
+}
+ }
+ 
+/* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  
+ }
+
