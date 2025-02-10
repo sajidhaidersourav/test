@@ -1,0 +1,109 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* header */
+  .logo{
+    width: 100px;
+}
+  .menu ul li {
+    padding: 0px 5px;
+}
+.c_btn{
+    padding: 8px 20px;
+}
+ /* banner */
+ .b_text {
+    padding: 40px 0px 0px 0px;
+}
+.b_text h2{
+    font-size: 25px;
+}
+.b_text p {
+    padding: 20px 0px 20px;
+    font-size: 16px;
+}
+.b_button a{
+    margin-bottom: 20px;
+}
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header */
+  .logo{
+    width: 120px;
+}
+  .menu ul li {
+    padding: 0px 5px;
+}
+.c_btn{
+    padding: 8px 20px;
+}
+ /* banner */
+ .b_text {
+    padding: 40px 0px 0px 0px;
+}
+.b_text h2{
+    font-size: 25px;
+}
+.b_text p {
+    padding: 30px 0px 50px;
+    font-size: 16px;
+}
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header */
+    .logo{
+        width: 140px;
+    }
+      .menu ul li {
+        padding: 0px 5px;
+    }
+    .c_btn{
+        padding: 8px 20px;
+    }
+    /* banner */
+    .b_text {
+        padding: 40px 0px 0px 0px;
+    }
+    .b_text p {
+        padding: 30px 0px 50px;
+        font-size: 18px;
+    }
+    
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  /* header */
+  .logo{
+    width: 140px;
+}
+  .menu ul li {
+    padding: 0px 5px;
+}
+.c_btn{
+    padding: 8px 20px;
+}
+    /* banner */
+    .b_text {
+        padding: 80px 0px 0px 10px;
+    }
+    .b_text h2 {
+        font-size: 40px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* banner */
+    .b_text {
+        padding: 120px 0px 0px 30px;
+    }
+ }
+ 
+/* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  
+ }

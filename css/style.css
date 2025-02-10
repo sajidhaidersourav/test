@@ -1,0 +1,132 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+/* common */
+:root{
+
+    --black    :   #000000;
+    --black2   :   #0f1115;
+    --whire    :   #ffffff;
+    --green    :   #28e98c;
+    --gree2    :   #136a13;
+    --ash      :   #909090;
+
+    --pop      :    "Poppins", serif;
+    --ply      :    "Playfair Display", serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    scrollbar-width: thin;
+    scrollbar-color: var(--green) var(--gree2);
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ash);
+    line-height: 28px;
+    background-color: var(--black2);
+}
+
+/* header strat */
+header{
+    padding: 5px 0px;
+    background-color: var(--black);
+    position: sticky;
+    top: 0%;
+    left: 0%;
+}
+.logo{
+    width: 180px;
+}
+/* ----- menu ------ */
+.menu ul li{
+    padding: 0px 10px;
+}
+.menu ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--green);
+}
+.active{
+    color: var(--green);
+}
+.menu ul li a:hover{
+    color: var(--whire);
+}
+/* ----- button ---- */
+.c_btn{
+    padding: 12px 30px;
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--green);
+    border: 1px solid var(--green);
+    transition: 0.4s;
+}
+.c_btn span{
+    padding-left: 10px;
+}
+.ch_btn:hover{
+    background-color: var(--green);
+    color: var(--black);
+    border-color: var(--green);
+}
+/* ------ mobile menu ----- */
+.mobile_menu{
+    background-color: var(--black);
+}
+.m_on_btn{
+    font-size: 25px;
+    color: var(--green);
+}
+.m_menu_title{
+    color: var(--whire);
+}
+.m_off_btn i{
+    font-size: 25px;
+    color: var(--green);
+}
+/* header end */
+/* banner start */
+.banner{
+    padding: 40px 0px;
+}
+.b_img img{
+    width: 100%;
+}
+/* ----- banner text ---- */
+.b_text{
+    padding: 150px 0px 0px 30px;
+}
+.b_text h2{
+    font-family: var(--ply);
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--whire);
+}
+.b_text h2 span{
+    color: var(--green);
+}
+.b_text p{
+    padding: 30px 0px 80px;
+    font-size: 20px;
+    color: var(--whire);
+}
+.b_button{
+
+}
+.b_button a:first-child{
+   margin-right:  20px;
+}
+/* banner end */
